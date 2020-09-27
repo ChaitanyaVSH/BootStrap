@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <title>Bootstrap Tutorial</title>
+    <style>
+        .container div div{
+            padding: 20px 10px;
+            border: 1px solid black;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- BootStrap Reboot is used for styling Lists, Headings, Paragraphs without using classes. It is more normalised. (https://v4-alpha.getbootstrap.com/content/reboot/) -->
+    <h1>BootStrap Reboot</h1>
+    <h2>Hello, world!</h2>
+    <h3>Hello, world!</h3>
+    <h4>Hello, world!</h4>
+    <h5>Hello, world!</h5>
+    <h6>Hello, world!</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium recusandae at obcaecati, numquam eius temporibus neque iusto vitae, animi voluptatem consectetur nostrum similique. Est aliquam possimus, itaque iusto distinctio assumenda eos velit nostrum. Et cupiditate dolorem labore veritatis ratione corrupti consectetur quibusdam praesentium sequi, alias delectus nobis minima illo odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium alias obcaecati sit doloribus eos? Eum distinctio nam voluptatum provident, magnam aperiam repudiandae ipsum laborum officia labore ea quibusdam ex sunt incidunt laboriosam velit, facere dolore vel quod maxime voluptatem sapiente tempore, id deleniti. Doloremque, eum perspiciatis minima dolorum laudantium adipisci. Maxime autem quidem perferendis corporis ab quos error, reiciendis doloribus quod odit assumenda aspernatur molestiae unde obcaecati quis numquam veritatis provident repellendus saepe fugiat nam facilis? Consequuntur beatae ipsam accusamus reiciendis doloremque nobis a aspernatur, dolores iusto libero, non vitae quis nemo exercitationem? Repellendus impedit itaque sapiente necessitatibus ullam assumenda velit similique nemo eligendi consequuntur accusantium, ipsam tenetur ad sint, aut est at saepe modi pariatur repellat doloribus. Porro sed quisquam ipsa in. Qui dolor ullam reiciendis est voluptas ipsam, cumque laboriosam molestias. Libero, laboriosam! Et at, quod inventore itaque nisi iure? Fugit non nam tempora aspernatur totam perferendis eum veniam neque, illum culpa cumque ipsam voluptatem illo, laboriosam ipsum necessitatibus nobis, dolores id eligendi mollitia quibusdam esse atque? Nulla laudantium cupiditate aspernatur tempore, eos inventore. Quam, eos quia reiciendis laboriosam officia quos in harum magni! Consequuntur hic nam soluta, quia magni repellat voluptas esse minima ducimus illum aliquam fugit.</p>
+
+    <ul>
+        <li>Potatoes</li>
+        <li>Onions</li>
+        <li>Mangoes</li>
+        <li>Guava</li>
+        <li>Apples</li>
+    </ul>
+
+    <form action="">
+        <label for="">Name</label>
+        <br>
+        <input type="text" placeholder="Enter Name">
+        <br>
+        <input type="submit" value="Click Me "/>
+    </form>
+
+    <!-- BootStrap Containers
+        1. These are the most basic layout components.
+        2. Help us in centering the content.
+        3. These are of 2 types
+            Fluid and Fixed 
+    -->
+    <!-- This is the Fixed container that comes as default -->
+    <div class="container" style="background: lightblue;">
+        <h1>Fixed Container</h1>
+    </div>
+
+    <div class="container-fluid" style="background: lightpink;">
+        <h1>Fluid Container</h1>
+    </div>
+
+    <!-- BootStrap Grid System internally uses 12 columns architecture.
+
+        sm -- Smaller Screens
+        md -- Medioum Screens
+        lg -- Larger Screens
+    -->
+    <div class="container">
+        <div class="row" style="background: lightblue;">
+            <div class="col-sm-6" style="border: 1px solid black">col-sm-6</div>
+            <div class="col-sm-6" style="border: 1px solid black">col-sm-6</div>
+        </div>
+
+        <div class="row" style="background: lightgreen;">
+            <div class="col-md-6" style="border: 1px solid black">col-md-6</div>
+            <div class="col-md-6" style="border: 1px solid black">col-md-6</div>
+        </div>
+
+        <div class="row" style="background: lightcyan;">
+            <div class="col-md-6 col-lg-3" style="border: 1px solid black">col-md-6 col-lg-3</div>
+            <div class="col-md-6 col-lg-3" style="border: 1px solid black">col-md-6 col-lg-3</div>
+            <div class="col-md-6 col-lg-3" style="border: 1px solid black">col-md-6 col-lg-3</div>
+            <div class="col-md-6 col-lg-3" style="border: 1px solid black">col-md-6 col-lg-3</div>
+        </div>
+
+        <div class="row" style="background: orange;">
+            <div class="col-3" style="border: 1px solid black">col-3</div>
+            <div class="col-3" style="border: 1px solid black">col-3</div>
+            <div class="col-3" style="border: 1px solid black">col-3</div>
+            <div class="col-3" style="border: 1px solid black">col-3</div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>

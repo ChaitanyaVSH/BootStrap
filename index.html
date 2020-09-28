@@ -13,6 +13,14 @@
             padding: 20px 10px;
             border: 1px solid black;
         }
+
+        .row {
+            margin: 10px;
+        }
+        .row div{
+            padding: 20px 10px;
+            border: 1px solid black;
+        }
     </style>
   </head>
   <body>
@@ -86,6 +94,22 @@
             <div class="col-3" style="border: 1px solid black">col-3</div>
             <div class="col-3" style="border: 1px solid black">col-3</div>
         </div>
+    </div>
+
+    <!-- BootStrap Flexboxes
+        For FlexBoxes we do not need to mention the number of grid columns
+    -->
+    <div class="row" style="background: greenyellow;">
+        <div class="col-md" style="border: 1px solid black">col-md</div>
+        <div class="col-md-6" style="border: 1px solid black">col-md</div>
+        <div class="col-md" style="border: 1px solid black">col-md</div>
+    </div>
+
+    <!-- BootStrap automatically occupies only half space (6 grid columns) -->
+    <div class="row justify-content-md-center">
+        <div class="col-md-2" style="border: 1px solid black">col-md-2</div>
+        <div class="col-md-2" style="border: 1px solid black">col-md-2</div>
+        <div class="col-md-2" style="border: 1px solid black">col-md-2</div>
     </div>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->

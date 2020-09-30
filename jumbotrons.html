@@ -46,6 +46,26 @@
   </head>
   <body>
 
+    <!-- BootStrap Navbar is used for the responsive NavBars
+        https://getbootstrap.com/docs/4.0/components/navbar/?
+    -->
+    <nav class="navbar navbar-toggleable-sm navbar-inverse navbar-dark bg-primary">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainnav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainnav">
+                <div class="navbar-nav">
+                    <a href="" class="nav-item nav-link active">Home</a>
+                    <a href="" class="nav-item nav-link">About</a>
+                    <a href="" class="nav-item nav-link">Contact</a>
+                    <a href="" class="nav-item nav-link">FreeLancing</a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
     <!-- BootStrap jumbotron is more similar to the header in general. -->
     <!-- https://v4-alpha.getbootstrap.com/utilities/borders/ 
         BootStrap utilities is used for more styling and stuff.
@@ -116,7 +136,7 @@
     <!-- BootStrap navs are highly used to create the tabbed content
         https://getbootstrap.com/docs/4.0/components/navs/
      -->
-    <nav class="nav nav-pills justify-content-center flex-column flex-md-row px-5 ">
+    <nav class="nav nav-pills justify-content-center flex-column flex-md-row px-5">
         <a href="#coder" class="nav-link active" data-toggle="tab">Fire Coder</a>
         <a href="#prog" class="nav-link" data-toggle="tab">Hungry Programmer</a>
         <a href="#scrap" class="nav-link" data-toggle="tab">Web Scrapper</a>

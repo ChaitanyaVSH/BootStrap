@@ -146,7 +146,7 @@
     <div class="tab-content px-5 py-5">
         <div class="tab-pane active" id="coder">
             <h3>Fire Coder</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint amet optio, aliquid assumenda quia corrupti adipisci excepturi ut, voluptas reiciendis id placeat iusto? Exercitationem explicabo est consequatur fugiat odit nostrum, quis aut expedita repellendus nihil ipsum dolorem enim laudantium error! Dicta accusamus fugiat veniam soluta expedita, eos odio vero, exercitationem provident, cumque blanditiis iure magnam aut harum. Cupiditate quas nihil voluptas saepe.</p>
+            <p>Lorem ipsum dolor sit amet <span data-toggle="tooltip" title="This is the tooltip" class="text-info">consectetur adipisicing elit</span>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint amet optio, aliquid assumenda quia corrupti adipisci excepturi ut, voluptas reiciendis id placeat iusto? Exercitationem explicabo est consequatur fugiat odit nostrum, quis aut expedita repellendus nihil ipsum dolorem enim laudantium error! Dicta accusamus fugiat veniam soluta expedita, eos odio vero, exercitationem provident, cumque blanditiis iure magnam aut harum. Cupiditate quas nihil voluptas saepe.</p>
         </div>
 
         <div class="tab-pane" id="prog">
@@ -170,5 +170,10 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script>
+        $(() =>  {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
   </body>
 </html>
